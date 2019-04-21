@@ -1,2 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root><student username="rain" password="rain" birthday="1995-3-21 0:00:00" sno="3113004681" name="rain" gender="男" schoolClass="信管一班"><scores><year1><term1 高等数学="45" Java程序设计="90"/><term2 书="65"/></year1><year2><term3/><term4/></year2><year3><term5/><term6/></year3><year4><term7/><term8/></year4></scores></student><teacher username="rain" password="rain" name="rain"/><student username="SwYoung" password="2020" birthday="1997-3-3 0:00:00" sno="B16012321" name="yangbingxi" gender="男" schoolClass="23"><scores><year1><term1 英语="100"/><term2/></year1><year2><term3/><term4/></year2><year3><term5/><term6/></year3><year4><term7/><term8/></year4></scores></student></root>
+<root>
+    <student username="SwYoung" password="2020" birthday="1997-3-14 0:00:00" sno="B16012321" name="杨秉茜" gender="男" schoolClass="信息工程23班">
+        <scores>
+            <year1>
+                <term1 高等数学上="100" C语言程序设计="90" 线性代数="89" 军训="95" 大学英语I="75" 自动化导论="85"/>
+                <term2 Java语言设计="91" 大学物理上="80" 大学英语II="79" 电路分析="90" 高数下="99" 金工实习="89"/>
+            </year1>
+            <year2>
+                <term3 大学物理下="84" 电装实习="85" 马克思主义基本原理概论="95" 模拟电子线路="90" 信号与系统="92" 大学英语III="78"/>
+                <term4 大学英语IV="82" 概率论与数理统计="92" 数字电路与逻辑设计="91" 算法分析与设计="83" 微型计算机原理="85"/>
+            </year2>
+            <year3>
+                <term5 IP网络技术="92" 韩语入门与汉文化="85" 毛泽东思想和中国特色社会主义理论体系="94" 职业发展与就业指导="86"/>
+                <term6/>
+            </year3>
+            <year4>
+                <term7/>
+                <term8/>
+            </year4>
+        </scores>
+    </student>
+    <student username="Xueli" password="2017" birthday="1998-1-15 0:00:00" sno="B16012303" name="刘雪婷" gender="女" schoolClass="信息工程23班">
+        <scores>
+            <year1>
+                <term1 高等数学上="98" C语言程序设计="98" 线性代数="95" 军训="65" 大学英语I="79" 自动化导论="75"/>
+                <term2 Java语言设计="69" 大学物理上="45" 大学英语II="67" 电路分析="94" 高数下="85" 金工实习="69"/>
+            </year1>
+            <year2>
+                <term3 大学物理下="69" 电装实习="65" 马克思主义基本原理概论="60" 模拟电子线路="95" 信号与系统="96" 大学英语III="87"/>
+                <term4 大学英语IV="89" 概率论与数理统计="87" 数字电路与逻辑设计="86" 算法分析与设计="76" 微型计算机原理="74"/>
+            </year2>
+            <year3>
+                <term5 IP网络技术="98" 韩语入门与汉文化="87" 毛泽东思想和中国特色社会主义理论体系="90" 职业发展与就业指导="81"/>
+                <term6/>
+            </year3>
+            <year4>
+                <term7/>
+                <term8/>
+            </year4>
+        </scores>
+    </student>
+    <student username="Wangwang" password="123" birthday="1998-4-5 0:00:00" sno="B16012222" name="李旺旺" gender="男" schoolClass="信息工程22班">
+        <scores>
+            <year1>
+                <term1 高等数学上="99" C语言程序设计="93" 线性代数="90" 军训="87" 大学英语I="90" 自动化导论="65"/>
+                <term2 Java语言设计="89" 大学物理上="98" 大学英语II="56" 电路分析="55" 高数下="65" 金工实习="45"/>
+            </year1>
+            <year2>
+                <term3 大学物理下="78" 电装实习="65" 马克思主义基本原理概论="60" 模拟电子线路="95" 信号与系统="96" 大学英语III="87"/>
+                <term4 大学英语IV="87" 概率论与数理统计="98" 数字电路与逻辑设计="45" 算法分析与设计="74" 微型计算机原理="94"/>
+            </year2>
+            <year3>
+                <term5 IP网络技术="93" 韩语入门与汉文化="89" 毛泽东思想和中国特色社会主义理论体系="80" 职业发展与就业指导="86"/>
+                <term6/>
+            </year3>
+            <year4>
+                <term7/>
+                <term8/>
+            </year4>
+        </scores>
+    </student>
+    <student username="XiaoWu" password="123" birthday="1999-6-15 0:00:00" sno="B16012223" name="吴悠" gender="男" schoolClass="信息工程22班">
+        <scores>
+            <year1>
+                <term1 高等数学上="45" C语言程序设计="65" 线性代数="65" 军训="98" 大学英语I="65" 自动化导论="12"/>
+                <term2 Java语言设计="45" 大学物理上="23" 大学英语II="54" 电路分析="56" 高数下="56" 金工实习="56"/>
+            </year1>
+            <year2>
+                <term3 大学物理下="29" 电装实习="43" 马克思主义基本原理概论="48" 模拟电子线路="65" 信号与系统="60" 大学英语III="59"/>
+                <term4 大学英语IV="49" 概率论与数理统计="56" 数字电路与逻辑设计="78" 算法分析与设计="40" 微型计算机原理="45"/>
+            </year2>
+            <year3>
+                <term5 IP网络技术="12" 韩语入门与汉文化="45" 毛泽东思想和中国特色社会主义理论体系="56" 职业发展与就业指导="43"/>
+                <term6/>
+            </year3>
+            <year4>
+                <term7/>
+                <term8/>
+            </year4>
+        </scores>
+    </student>
+    <student username="Susu" password="123" birthday="1997-10-15 0:00:00" sno="B16012222" name="苏晨晨" gender="男" schoolClass="信息工程23班">
+        <scores>
+            <year1>
+                <term1 高等数学上="78" C语言程序设计="89" 线性代数="87" 军训="89" 大学英语I="78" 自动化导论="86"/>
+                <term2 Java语言设计="48" 大学物理上="78" 大学英语II="88" 电路分析="83" 高数下="84" 金工实习="58"/>
+            </year1>
+            <year2>
+                <term3 大学物理下="84" 电装实习="89" 马克思主义基本原理概论="89" 模拟电子线路="98" 信号与系统="56" 大学英语III="45"/>
+                <term4 大学英语IV="89" 概率论与数理统计="45" 数字电路与逻辑设计="89" 算法分析与设计="89" 微型计算机原理="48"/>
+            </year2>
+            <year3>
+                <term5 IP网络技术="45" 韩语入门与汉文化="92" 毛泽东思想和中国特色社会主义理论体系="79" 职业发展与就业指导="90"/>
+                <term6/>
+            </year3>
+            <year4>
+                <term7/>
+                <term8/>
+            </year4>
+        </scores>
+    </student>
+    <teacher username="teacherWang" password="wang" name="王建强"/>
+    <teacher username="teacherLiu" password="liu" name="刘新建"/>
+    <teacher username="teacherGao" password="gao" name="高育良"/>
+    <teacher username="teacherSha" password="sha" name="沙瑞金"/>    
+</root>
