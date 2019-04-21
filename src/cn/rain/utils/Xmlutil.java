@@ -13,23 +13,25 @@ import org.dom4j.io.XMLWriter;
 
 /**
  * 对数据库文件进行读写操作的工具类
- * @author rain
- * @version 2014-09-10
- * @since JDK1.6
+ * 
+ * @author SwYoung
+ * @version V1.0
+ * @since 2019-4-29
  */
 public class Xmlutil {
-	
-	//获取当前jar包所在路径
+
+	// 获取当前jar包所在路径
 	static URL url = new Xmlutil().getClass().getProtectionDomain().getCodeSource().getLocation();
 	static String realPath = url.getPath();
 	static {
 		int i = realPath.lastIndexOf("/");
-		realPath = realPath.substring(0,i+1);
+		realPath = realPath.substring(0, i + 1);
 	}
-	static File file = new File(realPath+"/DB.xml");
-	
+	static File file = new File(realPath + "/DB.xml");
+
 	/**
 	 * 获取数据库文件的Document对象
+	 * 
 	 * @author rain
 	 * @return 数据库文件的Document对象(Document)
 	 */
@@ -41,6 +43,7 @@ public class Xmlutil {
 
 	/**
 	 * 将传入的Document对象写入数据库文件
+	 * 
 	 * @author rain
 	 * @param 数据库文件的Document对象(Document)
 	 */

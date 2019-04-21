@@ -5,14 +5,15 @@ import java.rmi.RemoteException;
 import java.util.Date;
 import java.util.Map;
 
-/** 
-* 用户类接口
-* @author  rain 
-* @version 2014-09-10
-* @since   JDK1.6
-*/ 
+/**
+ * 用户类接口
+ * 
+ * @author SwYoung
+ * @version V1.0
+ * @since 2019-4-29
+ */
 
-public interface User extends Remote{
+public interface User extends Remote {
 
 	String getUsername() throws RemoteException;
 

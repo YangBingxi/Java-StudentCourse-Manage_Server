@@ -6,9 +6,10 @@ import java.util.Map.Entry;
 
 /**
  * 对表单内容进行排序的工具类
- * @author rain
- * @version 2014-09-10
- * @since JDK1.6
+ * 
+ * @author SwYoung
+ * @version V1.0
+ * @since 2019-4-29
  */
 public class SortUtil {
 
@@ -19,8 +20,7 @@ public class SortUtil {
 	 * @version 2014-09-10
 	 * @since JDK1.6
 	 */
-	public static class SortByUp implements
-			Comparator<Map.Entry<String, Integer>> {
+	public static class SortByUp implements Comparator<Map.Entry<String, Integer>> {
 		public int compare(Entry<String, Integer> o1, Entry<String, Integer> o2) {
 			return o1.getValue().compareTo(o2.getValue());
 		}
@@ -33,8 +33,7 @@ public class SortUtil {
 	 * @version 2014-09-10
 	 * @since JDK1.6
 	 */
-	public static class SortByDown implements
-			Comparator<Map.Entry<String, Integer>> {
+	public static class SortByDown implements Comparator<Map.Entry<String, Integer>> {
 		public int compare(Entry<String, Integer> o1, Entry<String, Integer> o2) {
 			return -o1.getValue().compareTo(o2.getValue());
 		}

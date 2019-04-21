@@ -9,12 +9,13 @@ import java.rmi.registry.LocateRegistry;
 import cn.rain.dao.UserDao;
 import cn.rain.dao.impl.UsersDaoXmlIpl;
 
-/** 
-* 连接客户端的工具类
-* @author  rain 
-* @version 2014-09-10
-* @since   JDK1.6
-*/
+/**
+ * 连接客户端的工具类
+ * 
+ * @author SwYoung
+ * @version V1.0
+ * @since 2019-4-29
+ */
 
 public class ConnectUtil extends Thread {
 
@@ -28,8 +29,8 @@ public class ConnectUtil extends Thread {
 			int port = Integer.parseInt(AddressUtil.getPort());
 			// 本地主机上的远程对象注册表Registry的实例，并指定端口为8888
 			LocateRegistry.createRegistry(port);
-			Naming.bind("rmi://"+ip+":"+port+"/Dao", dao);
-			/*Naming.bind("rmi://localhost:8888/Dao",dao);*/ 
+			Naming.bind("rmi://" + ip + ":" + port + "/Dao", dao);
+			/* Naming.bind("rmi://localhost:8888/Dao",dao); */
 
 			System.out.println("远程对象绑定成功！");
 		} catch (RemoteException e) {
