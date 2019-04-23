@@ -44,7 +44,7 @@ public class PropUtil {
 	}
 
 	/**
-	 * @author rain
+	 * @author SwYoung
 	 * @return ÓÃ»§Ãû(String)
 	 */
 	public static String getUsername() {
@@ -52,7 +52,7 @@ public class PropUtil {
 	}
 
 	/**
-	 * @author rain
+	 * @author SwYoung
 	 * @return ÃÜÂë(String)
 	 */
 	public static String getPassword() {

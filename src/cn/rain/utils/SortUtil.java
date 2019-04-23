@@ -16,7 +16,7 @@ public class SortUtil {
 	/**
 	 * 对表单内容进行从低到高排序的类
 	 * 
-	 * @author rain
+	 * @author SwYoung
 	 * @version 2014-09-10
 	 * @since JDK1.6
 	 */
@@ -29,7 +29,7 @@ public class SortUtil {
 	/**
 	 * 对表单内容进行从高到低排序的类
 	 * 
-	 * @author rain
+	 * @author SwYoung
 	 * @version 2014-09-10
 	 * @since JDK1.6
 	 */

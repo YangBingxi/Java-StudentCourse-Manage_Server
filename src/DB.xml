@@ -80,7 +80,7 @@
             </year4>
         </scores>
     </student>
-    <student username="Susu" password="123" birthday="1997-10-15 0:00:00" sno="B16012222" name="苏晨晨" gender="男" schoolClass="信息工程23班">
+    <student username="Susu" password="123" birthday="1997-10-15 0:00:00" sno="B16012320" name="苏晨晨" gender="男" schoolClass="信息工程23班">
         <scores>
             <year1>
                 <term1 高等数学上="78" C语言程序设计="89" 线性代数="87" 军训="89" 大学英语I="78" 自动化导论="86"/>
