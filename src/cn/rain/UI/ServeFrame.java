@@ -1,5 +1,6 @@
 package cn.rain.UI;
 
+import java.awt.Color;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -75,17 +76,21 @@ public class ServeFrame extends JFrame implements ActionListener {
 
 		startButton.addActionListener(this);
 		startButton.setBounds(99, 158, 72, 23);
+		startButton.setFont(new Font("微软雅黑", Font.PLAIN, 15));
 		contentPane.add(startButton);
 
 		JLabel label = new JLabel("学生成绩管理系统服务器");
-		label.setFont(new Font("楷体", Font.PLAIN, 22));
+		label.setFont(new Font("微软雅黑", Font.PLAIN, 22));
 		label.setHorizontalAlignment(SwingConstants.CENTER);
 		label.setBounds(83, 24, 267, 47);
 		contentPane.add(label);
 
 		stopButton.addActionListener(this);
 		stopButton.setBounds(262, 158, 72, 23);
+		stopButton.setFont(new Font("微软雅黑", Font.PLAIN, 15));
 		contentPane.add(stopButton);
+		
+		contentPane.setBackground(new Color(220,220,220));
 	}
 
 	@Override

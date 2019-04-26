@@ -46,9 +46,9 @@ public class UsersDaoXmlIpl extends UnicastRemoteObject implements UserDao {
 		String username = PropUtil.getUsername();// 获取管理员用户名
 		String password = PropUtil.getPassword();// 获取管理员密码
 
-		Map<String, String> admin = new LinkedHashMap<String, String>();//MAP初始化
-		admin.put("username", username);//插入元素
-		admin.put("password", password);//插入元素
+		Map<String, String> admin = new LinkedHashMap<String, String>();// MAP初始化
+		admin.put("username", username);// 插入元素
+		admin.put("password", password);// 插入元素
 		return admin;
 
 	}
@@ -382,7 +382,7 @@ public class UsersDaoXmlIpl extends UnicastRemoteObject implements UserDao {
 
 			Map<String, Integer> scores = new LinkedHashMap<String, Integer>();
 			// 用来装用户学号和分数的map
-			if (method.equals("term")) {
+			if ("term".equals(method)) {
 				// 按学期查询
 				try {
 					Document doc = Xmlutil.getDocument();// 获取Document对象
@@ -407,7 +407,7 @@ public class UsersDaoXmlIpl extends UnicastRemoteObject implements UserDao {
 				}
 				return scores;// 返回结果
 
-			} else if (method.equals("year")) {
+			} else if ("year".equals(method)) {
 				// 按学年查询
 				try {
 					Document doc = Xmlutil.getDocument();

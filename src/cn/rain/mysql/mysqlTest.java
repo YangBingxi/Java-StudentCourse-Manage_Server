@@ -14,7 +14,7 @@ import cn.rain.domain.Student;
 import cn.rain.domain.User;
 import cn.rain.utils.Xmlutil;
 
-/*
+/* 
  * 调用前需要加载JDBC驱动
  */
 public class mysqlTest {
@@ -86,12 +86,12 @@ public class mysqlTest {
 				System.out.println(rs.getString("username") + "\t" + rs.getString("password") + "\t"
 						+ rs.getString("birthday") + "\t" + rs.getString("sno") + "\t" + rs.getString("name") + "\t"
 						+ rs.getString("gender") + "\t" + rs.getString("schoolClass"));
-				//System.out.println(rsCourse1.getString("高数上"));
+				// System.out.println(rsCourse1.getString("高数上"));
 			}
 			ResultSet rsCourse1 = stmt.executeQuery("select * from course_term1,course_term2 where"
 					+ " course_term1.sno=\"B16012321\" and course_term2.sno=\"B16012321\"");
-			while(rsCourse1.next()) {
-				System.out.println(rsCourse1.getString("高等数学上")+"\t"+rsCourse1.getString("电路分析"));
+			while (rsCourse1.next()) {
+				System.out.println(rsCourse1.getString("高等数学上") + "\t" + rsCourse1.getString("电路分析"));
 			}
 		} catch (Exception e) {
 			System.out.print("get data error!");

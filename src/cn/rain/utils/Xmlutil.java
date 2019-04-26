@@ -41,6 +41,7 @@ public class Xmlutil {
 		Document doc = reader.read(file);
 		return doc;
 	}
+
 	/**
 	 * 获取数据库文件的Document对象
 	 * 
@@ -52,6 +53,7 @@ public class Xmlutil {
 		Document doc = reader.read(file2);
 		return doc;
 	}
+
 	/**
 	 * 将传入的Document对象写入数据库文件
 	 * 
@@ -65,6 +67,7 @@ public class Xmlutil {
 		XMLWriter writer = new XMLWriter(new FileOutputStream(file), format);
 		writer.write(doc);
 	}
+
 	/**
 	 * 将传入的Document对象写入数据库文件
 	 * 
